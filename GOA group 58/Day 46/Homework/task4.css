@@ -1,0 +1,13 @@
+#p1{
+    text-decoration: underline rgb(243, 168, 5) ;
+    text-decoration-style: dashed;
+    
+}
+#p2{
+    text-decoration: line-through rgb(171, 0, 238)  ;
+    text-decoration-style:dotted;
+}
+#p3{
+   text-decoration: overline #09e68a ; 
+   text-decoration-style:solid;
+}

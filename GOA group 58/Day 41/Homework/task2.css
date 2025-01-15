@@ -1,0 +1,29 @@
+/*2) კომენტარებით ახსენით, რა არის სელექტორი, რამდენი ტიპის გვაქვს. ისაუბრეთ მათ პრიორიტეტულობაზე და გააკეთეთ ამის შესახებ მოკლე პრეზენტაცია -->*/
+/*Selectors are templates for formatting styles for web page elements.
+        We have 3 type of selector : tag, class, id. 
+
+<style>
+        p{
+            color: red;
+            text-align: center;
+            font-size: 50px;
+            font-style: italic;
+        }
+
+        need . to selector the class 
+        .header{
+            color: rgb(25, 245, 17);
+        }
+
+        need # to selector the id 
+
+        #unique{
+            background-color: rgb(146, 40, 245);
+        }
+
+
+        button{
+            background-color: aqua;
+        }
+        need * to selector all text 
+</style>*/

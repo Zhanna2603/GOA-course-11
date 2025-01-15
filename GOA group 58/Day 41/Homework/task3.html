@@ -1,0 +1,84 @@
+<!-- შექმენით საიმფორმაციო საიტი Front-end-ის შესახებ. საიტი უნდა იყოს დაყოფილი სექციებად.
+
+Header-Section
+
+პირველ რიგში შექმენით header-ი სადაც მოათავსებთ საიტის მთავარ სათაურს(h1) და ნავიგაციის სექციას(დაგჭირდებათ nav თეგი, რომელშიც გექნებათ დაულაგებელი სია და სიის თითოეული ელემენტი(li) იქნება ლინკი, სხვა გვერდზე გადასასვლელად. დაგჭირდებათ a თეგი. ლინკების href ატრიბუტში მიუთითეთ # მასზე დაჭერისას იგივე ფაილში რომ დარჩეს. სხვა გვერდის შექმნა არ გიწევთ, ეს უბრალოდ ვიზუალისთვის). ასევე header-ში გექნებათ ერთი პარაგრაფი სადაც ძალიან ზოგადად და მოკლედ ისაუბრებთ front-end-ის შესახებ.
+
+Main-Section
+
+Section-1
+შემდეგ შექმენით main თეგი, სადაც მოათავსებთ საიტის მთავარ ინფორმაციას. აქ დაგჭირდებათ რამოდენიმე სექცია(section თეგი). თითოეულ სექციას უნდა ჰქონდეს თავისი სათაური(h2). პირველ სექციაში შექმენით სათაური What is Frontend? და ისაუბრედ დეტალურად ამ თემაზე.(ასევე ძალიან მოკლედ განიხილეთ html,css,js)
+
+Section-2
+შექმენით HTML-ის შესახებ სექცია. შესაბამისის სათაურით(h2). დეტალურად ისაუბრეთ მასზე(პასუხი უნდა გასცეთ შემდეგ კითხვებს: რა არის HTML, რისთვის გამოიყენება...)
+  Sub-Section
+    მეორე სექციაში შექმენით ქვე სექცია, სათაურით History(გამოიყენეთ h3). ისაუბრეთ Html-ის შექმნის ისტორიაზე.
+
+Section-2 ის მსგავსი სტრუქტურით დაამატეთ ორი სექცია, CSS-ზე და JavaScrpit-ზე, იგივე სახის ქვე სექციით
+
+Main-Section-ის(main tag) თითოეულ სექციაში უნდა გქონდეთ 1 ფოტო.(History ქცე სექციაში არ გინდათ). დაამატეთ ღილაკებიც სურვილისამებრ
+
+გასტილეთ ეს საიტი, გამოიყენეთ ყველა ნასწავლი CSS-ის კუთვნილება(ეს ტერმინი არ იცით, უბრალოდ სტილი. მაგ: color: "..." -> color არის კუთვნილება) -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FrontEndInfo</title>
+  <link rel="stylesheet" href="task3.css">
+</head>
+
+<body>
+    <header>
+        <h1>Learn Front-end Development</h1>
+        <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        </nav>
+        <p>Front-end development is the practice of producing HTML, CSS, and JavaScript for a website or application.</p>
+    </header>
+
+    <main>
+        <section>
+        <h2>What is Frontend?</h2>
+        <p>Frontend development involves building the user interface of websites and applications. It includes technologies like HTML for structure, CSS for styling, and JavaScript for interactivity.</p>
+        <button>Learn More</button>
+        </section>
+
+        <section>
+        <h2>HTML</h2>
+        <p>HTML (HyperText Markup Language) is the standard language for creating web pages. It provides the basic structure of a website.</p>
+        <section>
+            <h3>History</h3>
+            <p>HTML was created by Tim Berners-Lee in 1991. It has evolved significantly over the years, with HTML5 being the latest version.</p>
+        </section>
+        <button>Learn More</button>
+        </section>
+
+        <section>
+        <h2>CSS</h2>
+        <p>CSS (Cascading Style Sheets) is used to style HTML elements. It controls the layout, colors, fonts, and overall look of a website.</p>
+        <section>
+            <h3>History</h3>
+            <p>CSS was first proposed by Håkon Wium Lie in 1994 and officially released in 1996. It has since become an essential part of web design.</p>
+        </section>
+        <button>Learn More</button>
+        </section>
+
+        <section>
+        <h2>JavaScript</h2>
+        <p>JavaScript is a programming language that allows developers to create interactive and dynamic websites. It works alongside HTML and CSS to enhance user experience.</p>
+        <section>
+            <h3>History</h3>
+            <p>JavaScript was developed by Brendan Eich in 1995. It has since become one of the most widely used programming languages.</p>
+        </section>
+        <button>Learn More</button>
+        </section>
+    </main>
+    
+</body>
+</html>

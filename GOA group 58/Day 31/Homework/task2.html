@@ -1,0 +1,29 @@
+<!-- 2) შექმენით ვებგვერდი რომელზეც დაამატებთ თქვენთვის სასურველ ვიდეოს და აუდიოს, ორივეს მინიმუმ 3 განსხვავებული ფორომატი, დაამატეთ ნასწავლი მართვის ფუნქციები (autoplay, loop, muted) თითოეული ახსენით კომენტარებით. შეასრულეთ იგივე მაგრამ გამოიყენეთ არასწორი გზა, ერთ მედია თეგში რამდენიმე source თეგის ნაცვლად აიღეთ რამდენიმე მედია თეგი და დაუწერეთ src ატრიბუტი. დაწერეთ განსხვავება, მიუთითეთ რომელია სწორი გზა და რატომ -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <video controls>
+        <source src="sea2731.mp4" type="video/mp4">
+        <source src="sea2731.mpg" type="video/mpg">
+        <source src="sea2731.ogv" type="video/ogv">
+        Video couldn't be loaded
+    </video>
+
+    <audio controls>
+        <!-- Indicates an alternative audio source (3 tipes of sources)-->
+        <source src="ჩემო ჩიტუნია.mp3" type="audio/mp3">
+        <source src="ჩემო ჩიტუნია.ogg" type="audio/ogg">
+        <source src="ჩემო ჩიტუნია.wma" type="audio/wma">
+        <!-- This text is displayed if none of the formats are suitable for the browser. -->
+        The audio has not been uploaded
+    </audio>
+
+</body>
+</html>

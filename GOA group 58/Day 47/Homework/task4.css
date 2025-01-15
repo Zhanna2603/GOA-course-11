@@ -1,0 +1,13 @@
+a{
+    text-decoration: none;
+}
+a:hover{
+    color:rgb(240, 240, 0);
+    text-decoration:overline, color black;
+}
+a:active{
+    color:rgb(0, 0, 0);
+    text-decoration:overline, rgb(240, 240, 0);
+}
+
+

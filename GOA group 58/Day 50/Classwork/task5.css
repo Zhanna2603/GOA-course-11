@@ -1,0 +1,24 @@
+a{
+    color:rgb(243, 157, 29);
+    text-decoration:none;
+}
+
+a:hover{
+    color:rgb(49, 235, 49);
+    text-decoration:underline, color black;
+}
+
+a:link{
+    color: rgb(228, 55, 170);
+    text-decoration:overline
+}
+
+a:active{
+    color: rgb(28, 189, 135);
+    font-style: italic;
+}
+
+a:visited{
+    color: rgb(104, 53, 187);
+    font-size: 19;
+}
