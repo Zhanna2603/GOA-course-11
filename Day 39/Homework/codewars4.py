@@ -1,0 +1,4 @@
+"""https://www.codewars.com/kata/5b6183066d0db7bfac0000bb/train/python"""
+
+# Memesorting
+
