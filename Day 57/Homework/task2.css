@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body & Container */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    width: 80%;
+    max-width: 1200px;
+    height: 70%;
+    background-color: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+/* Left part */
+.left-section {
+    width: 50%;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #eef2ff;
+}
+
+.left-section h1 {
+    font-size: 32px;
+    color: #3f3f3f;
+}
+
+.highlight {
+    color: #4a6aff;
+}
+
+
+/* Right part */
+.right-section {
+    width: 50%;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.right-section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 8px;
+    color: #4a4a4a;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.input-group input:focus {
+    border-color: #4a6aff;
+}
+
+.password-strength {
+    height: 5px;
+    background-color: #ddd;
+    margin-top: 5px;
+    border-radius: 3px;
+}
+
+.btn {
+    background-color: #4a6aff;
+    color: white;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #3a5bc0;
+}
