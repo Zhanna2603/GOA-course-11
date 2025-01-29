@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #e8e8ea;
+    background: rgb(246,251,193);
+    background: linear-gradient(111deg, rgba(246,251,193,1) 0%, rgba(173,254,250,0.5) 50%, rgba(255,150,194,1) 100%);
+}
+
+*{
+    text-align: center;
+    list-style-position: inside;
+    font-size: 17px;
+    color: #292626;
+}
+
+i{
+    font-size: 25px;
+}

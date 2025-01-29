@@ -1,0 +1,69 @@
+<!-- დავალება: თქვენს პორტფოლიოში დაამატეთ form. form-ში მოცემული უნდა გქონდეთ name, surname, age, mail, ასევე message. საბოლოოდ აიღეთ ერთი ღილაკი, რომლითაც მოხდება submit -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="task1.css">
+</head>
+<body>
+
+  <div class="container">
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <div class="profile">
+            <img src="portphoto.jpg" alt="photo for portfolio">
+            <h2>Zhanna Gablia</h2>
+            <p>A first-year student</p>
+            <p>18 years old</p>
+            <p>Abkhazia, Sukhum</p>
+        </div>
+      <button class="cta">Let's Work Together</button>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">About Me</a></li>
+          <li><a href="#">Resume</a></li>
+          <li><a href="#">Contact Information</a></li>
+        </ul>
+      </nav>
+
+      <div class="intro">
+        <h1>I'm Zhanna Gablia</h1>
+        <p>Erudite , Purposeful and Sociable.</p>
+        <div class="buttons">
+          <button>My Works</button>
+          <button>Download Info</button>
+        </div>
+      </div>
+
+        <!-- Sign-up Form -->
+        <div class="sign-up">
+            <h2>Sign up</h2>
+            <form>
+                <div class="input-group">
+                    <label for="full-name">Full Name</label>
+                    <input type="text" id="full-name" placeholder="Enter your full name">
+                
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" placeholder="Enter your email address">
+                
+                    <label for="password">Password</label>
+                    <input type="password" id="password" placeholder="Enter your password">
+
+                    <label for="confirm-password">Confirm Password</label>
+                    <input type="password" id="confirm-password" placeholder="Confirm your password">
+
+                    <button type="submit" class="btn">Create Account
+                </div>
+    </div>
+  </div>
+</body>
+</html>
