@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Authorization</title>
+  <link rel="stylesheet" href="task1.css">
+</head>
+
+<body>
+  <div id="app">
+    <!-- Registration form -->
+    <div id="auth-section">
+      <h2>Registration</h2>
+      <form id="auth-form">
+        <input type="text" id="username" placeholder="username" required>
+        <input type="password" id="password" placeholder="password" required>
+        <button type="submit">Registration</button>
+      </form>
+      <p>Already registered?<a href="#" id="to-login">Login</a></p>
+    </div>
+
+    <!-- Authorization form -->
+    <div id="login-section" style="display:none;">
+      <h2>Authorization</h2>
+      <form id="login-form">
+        <input type="text" id="login-username" placeholder="login-username" required>
+        <input type="password" id="login-password" placeholder="login-password" required>
+        <button type="submit">Login</button>
+      </form>
+      <p>Don't have an account?<a href="#" id="to-register">Register</a></p>
+    </div>
+
+    <!-- Product Control Panel -->
+    <div id="dashboard" style="display:none;">
+      <h2>ПProduct Control Panel</h2>
+      <form id="product-form">
+        <input type="text" id="product-name" placeholder="product-name" required>
+        <input type="number" id="product-price" placeholder="product-price" required>
+        <button type="submit">Add a product</button>
+      </form>
+      <h3>List of products</h3>
+      <table id="products-table">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+      <button id="logout">Log out</button>
+    </div>
+  </div>
+  <script src="task1.js"></script>
+  
+</body>
+</html>
