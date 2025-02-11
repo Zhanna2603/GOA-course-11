@@ -1,0 +1,56 @@
+body {
+    background-color: #0d0d0d;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.card {
+    background-color: #161616;
+    border-radius: 16px;
+    padding: 24px;
+    width: 350px;
+    text-align: center;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.profile-pic {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    border: 2px solid white;
+    margin-bottom: 10px;
+}
+
+.role {
+    font-size: 15px;
+    color: #c084fc;
+    letter-spacing: 1px;
+}
+
+.header {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.description {
+    font-size: 15px;
+    color: #aaa;
+}
+
+.email-btn {
+    background: linear-gradient(90deg, #ff8c42, #a86de4);
+    padding: 20px 32px;
+    border-radius: 8px;
+    font-size: 14px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    margin: 15px auto;
+}
